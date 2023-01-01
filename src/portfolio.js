@@ -9,10 +9,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'Saad Pasta',
-  title: "Hi all, I'm Saad",
+  username: 'Jason Shannon',
+  title: "Hi all, I'm Jason",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    'A Full Stack Enterprise User Experience Designer with a passion for designing exceptional user experiences.'
   ),
   resumeLink:
     'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
@@ -24,11 +24,11 @@ const greeting = {
 const socialMediaLinks = {
   github: 'https://github.com/saadpasta',
   linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
+  gmail:'jwshannon@gmail.com',
   gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
+  //facebook: 'https://www.facebook.com/saad.pasta7',
   medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  //stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -37,7 +37,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'A Full Stack UX Designer with an edge',
   skills: [
     emoji(
       '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
@@ -114,7 +114,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
+      schoolName: 'University of Calgary',
       logo: require('./assets/images/harvardLogo.png'),
       subHeader: 'Master of Science in Computer Science',
       duration: 'September 2017 - April 2019',
@@ -163,8 +163,8 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
+      role: 'Sr. Pruduct Designer',
+      company: 'Enverus',
       companylogo: require('./assets/images/facebookLogo.png'),
       date: 'June 2018 – Present',
       desc:
@@ -175,7 +175,7 @@ const workExperiences = {
       ],
     },
     {
-      role: 'Front-End Developer',
+      role: 'Sr. UX Designer',
       company: 'Quora',
       companylogo: require('./assets/images/quoraLogo.png'),
       date: 'May 2017 – May 2018',
